@@ -20,7 +20,7 @@ class Snake {
     println(x);
     println(y);
     x = constrain(x,0,width-scale);
-    y = constrain(y,0,width-scale);
+    y = constrain(y,-1,width-scale);
   }
   
   void show(){
